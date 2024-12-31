@@ -1,0 +1,9 @@
+grammar miniproject2.Dsl with org.eclipse.xtext.common.Terminals
+
+generate dsl "http://www.Dsl.miniproject2"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

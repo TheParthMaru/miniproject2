@@ -1,0 +1,3 @@
+include 'miniproject2'
+include 'miniproject2.ide'
+include 'miniproject2.web'
